@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     color: #000;
     text-decoration: none;
 
-		@media (max-width: 960px) {
+		@media (max-width: 1000px) {
 			color: #000;
 		}
   }
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
 			align-items: center;
 			display: flex;
 
-			@media (max-width: 960px) {
+			@media (max-width: 1000px) {
 					display: none;
 			}
 

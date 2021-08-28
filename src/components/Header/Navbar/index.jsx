@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import NavbarLinks from '../NavbarLinks';
-import { Wrapper, Brand, Image, Logo } from './styles';
+import { Wrapper, Brand, Image, Logo, Button, Container } from './styles';
 import logo from "../../../images/logo.png";
 
 const Navbar = () => {
@@ -13,7 +13,10 @@ const Navbar = () => {
                     ICYBAC
                 </Brand>
             </Logo>
-            <NavbarLinks desktop />
+            <Container>
+                <NavbarLinks desktop />
+                <Button>Stechmücke melden</Button>
+            </Container>
         </Wrapper>
     );
 };
