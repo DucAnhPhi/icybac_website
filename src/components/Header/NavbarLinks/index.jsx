@@ -1,9 +1,9 @@
 import React from 'react';
 import { Wrapper } from './styles';
 
-const NavbarLinks = ({ desktop }) => {
+const NavbarLinks = ({ desktop, clickEvent }) => {
   return (
-    <Wrapper desktop={desktop}>
+    <Wrapper desktop={desktop} onClick={clickEvent}>
       <a href="#überuns">Über uns</a>
       <a href="#biologiedermücke">Biologie der Mücke</a>
       <a href="#selbsthilfe">Selbsthilfe</a>

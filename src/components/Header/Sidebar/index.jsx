@@ -4,8 +4,8 @@ import { Wrapper } from './styles';
 
 const Sidebar = ({ sidebar, toggle }) => {
   return (
-  <Wrapper active={sidebar} onClick={toggle}>
-    <NavbarLinks />
+  <Wrapper active={sidebar}>
+    <NavbarLinks clickEvent={() => toggle(!sidebar)}/>
   </Wrapper>
   )
 };
