@@ -39,11 +39,13 @@ export const Button = styled.div`
   justify-content: center;
   align-items: center;
   width: 175px;
+  font-weight: bold;
   color: white;
   background-color: black;
   border-radius: 4px;
   &:hover {
     color: #eb5e57;
+    width: 171px;
     background-color: white;
     border: 2px solid #eb5e57;
     cursor: pointer;
@@ -54,7 +56,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 715px;
+  width: 525px;
   @media (max-width: 1000px) {
     width: 175px;
   }
