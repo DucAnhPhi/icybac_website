@@ -4,18 +4,18 @@ import { Wrapper } from './styles';
 const NavbarLinks = ({ desktop, clickEvent }) => {
   return (
     <Wrapper desktop={desktop} onClick={clickEvent}>
-        <li class="mainpoint">
-          <a class="link" href="#überuns">Über uns</a>
-          <div class="submenu">
+        <li className="mainpoint">
+          <a className="link" href="#überuns">Über uns</a>
+          <div className="submenu">
             <a href="#ziele">Ziele</a>
             <a href="#experten">Experten</a>
             <a href="#partner">Partner</a>
             <a href="#kontakt">Kontakt</a>
           </div>
         </li>
-        <li class="mainpoint">
-          <a class="link" href="#tigermoskito">Tigermoskito</a>
-          <div class="submenu">
+        <li className="mainpoint">
+          <a className="link" href="#tigermoskito">Tigermoskito</a>
+          <div className="submenu">
             <a href="#biologie">Biologie</a>
             <a href="#brutstätten">Brutstätten</a>
             <a href="#erkennungsmerkmale">Erkennungsmerkmale</a>
@@ -24,9 +24,9 @@ const NavbarLinks = ({ desktop, clickEvent }) => {
             <a href="#publikationen">Publikationen</a>
           </div>
         </li>
-        <li class="mainpoint">
-          <a class="link" href="#bekämpfung">Bekämpfung</a>
-          <div class="submenu">
+        <li className="mainpoint">
+          <a className="link" href="#bekämpfung">Bekämpfung</a>
+          <div className="submenu">
             <a href="#methode">Methode</a>
             <a href="#bti">BTI</a>
             <a href="#selbsthilfe">Selbsthilfe</a>
