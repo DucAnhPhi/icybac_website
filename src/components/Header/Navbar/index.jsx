@@ -1,18 +1,12 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import NavbarLinks from '../NavbarLinks';
-import { Wrapper, Brand, Image, Logo, Button, Container } from './styles';
-import logo from "../../../images/logo.png";
+import { Wrapper, Button, Container } from './styles';
+import { Logo } from '../../index';
 
 const Navbar = () => {
     return (
         <Wrapper>
-            <Logo>
-                <Image src={logo} alt="logo"/>
-                <Brand as={Link} to="/">
-                    ICYBAC
-                </Brand>
-            </Logo>
+            <Logo />
             <Container>
                 <NavbarLinks desktop />
                 <Button>Stechmücke melden</Button>

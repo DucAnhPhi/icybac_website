@@ -1,5 +1,14 @@
 import * as React from "react"
-import { Header, Layout, About, Biology, Selfhelp, Partner, Contact } from '../components';
+import {
+  About,
+  Biology,
+  Contact,
+  Footer,
+  Header,
+  Layout,
+  Partner,
+  Selfhelp
+} from '../components';
 const IndexPage = () => {
   return (
       <Layout>
@@ -9,6 +18,7 @@ const IndexPage = () => {
         <Selfhelp />
         <Partner />
         <Contact />
+        <Footer />
       </Layout>
   )
 }
