@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   background: transparent;
   width: 100%;
+  @media (max-width: 500px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const Overlay = styled.div`

@@ -29,10 +29,17 @@ export const Button = styled.div`
   border-radius: 4px;
   &:hover {
     color: #eb5e57;
-    width: 171px;
     background-color: white;
-    border: 2px solid #eb5e57;
+    border: 1px solid #eb5e57;
     cursor: pointer;
+  }
+  @media (max-width: 500px) {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    border-radius: 0;
+    width: 100vw;
+    height: 50px;
   }
 `;
 
