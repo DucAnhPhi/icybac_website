@@ -23,7 +23,6 @@ export const Wrapper = styled.ul`
 			}
 
 			.mainpoint {
-				font-weight: bold;
 				position: relative;
 				display: flex;
 				align-items: center;
@@ -76,7 +75,6 @@ export const Wrapper = styled.ul`
 			flex-direction: column;
 
 			.mainpoint {
-				font-weight: bold;
 				display: flex;
 				align-items: center;
 				.link {

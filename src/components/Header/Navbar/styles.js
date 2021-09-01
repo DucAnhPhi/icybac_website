@@ -23,7 +23,6 @@ export const Button = styled.div`
   justify-content: center;
   align-items: center;
   width: 175px;
-  font-weight: bold;
   color: white;
   background-color: black;
   border-radius: 4px;
