@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, Mainpoint, Submenu } from './styles';
+import { Wrapper } from './styles';
 
 const NavbarLinks = ({ desktop, clickEvent }) => {
   return (
