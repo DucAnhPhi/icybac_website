@@ -14,7 +14,7 @@ export const Hero = () => (
             <Title>Tigermoskito - <span>Aedes albopictus</span></Title>
             <div>
                 <b>ICYBAC GmbH</b> ist Unternehmenstochter der Kommunalen Aktionsgemeinschaft zur Bekämpfung der Schnakenplage (KABS) e.V. <br/>
-                <Button href="#überuns">&darr;</Button>
+                <Button href="#bekämpfung">&darr;</Button>
             </div>
         </HeroContent>
     </Wrapper>

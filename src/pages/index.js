@@ -3,6 +3,7 @@ import {
   About,
   Biology,
   Contact,
+  Control,
   Footer,
   Header,
   Hero,
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <Layout>
         <Header />
         <Hero />
+        <Control />
         <About />
         <Biology />
         <Selfhelp />

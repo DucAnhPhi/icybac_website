@@ -1,8 +1,10 @@
 import React from 'react';
-import { Wrapper } from './styles';
+import { Wrapper, Content } from './styles';
 
 export const About = () => (
     <Wrapper id="überuns">
-        <h1>Über uns</h1>
+        <Content>
+            <h1>Über uns</h1>
+        </Content>
     </Wrapper>
 );

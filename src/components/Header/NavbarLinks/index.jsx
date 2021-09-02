@@ -5,6 +5,15 @@ const NavbarLinks = ({ desktop, clickEvent }) => {
   return (
     <Wrapper desktop={desktop} onClick={clickEvent}>
         <li className="mainpoint">
+          <a className="link" href="#bekämpfung">Bekämpfung</a>
+          <div className="submenu">
+            <a href="#methode">Methode</a>
+            <a href="#vorgehen">Vorgehen</a>
+            <a href="#bti">BTI</a>
+            <a href="#selbsthilfe">Selbsthilfe</a>
+          </div>
+        </li>
+        <li className="mainpoint">
           <a className="link" href="#überuns">Über uns</a>
           <div className="submenu">
             <a href="#ziele">Ziele</a>
@@ -22,14 +31,6 @@ const NavbarLinks = ({ desktop, clickEvent }) => {
             <a href="#risiko">Risiko</a>
             <a href="#verbreitung">Verbreitung</a>
             <a href="#publikationen">Publikationen</a>
-          </div>
-        </li>
-        <li className="mainpoint">
-          <a className="link" href="#bekämpfung">Bekämpfung</a>
-          <div className="submenu">
-            <a href="#methode">Methode</a>
-            <a href="#bti">BTI</a>
-            <a href="#selbsthilfe">Selbsthilfe</a>
           </div>
         </li>
     </Wrapper>

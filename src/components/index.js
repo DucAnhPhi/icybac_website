@@ -8,3 +8,7 @@ export * from './Partner';
 export * from './Footer';
 export * from './Logo';
 export * from './Hero';
+export * from './Control';
+export * from './Text';
+export * from './Title';
+export * from './Subtitle';
