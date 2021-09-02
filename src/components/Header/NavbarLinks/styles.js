@@ -45,6 +45,7 @@ export const Wrapper = styled.ul`
 			.submenu {
 				display: none;
 				position: absolute;
+				z-index: 100;
 				top: 70px;
 				background-color: white;
 				width: 200px;

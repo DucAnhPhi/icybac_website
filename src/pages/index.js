@@ -5,6 +5,7 @@ import {
   Contact,
   Footer,
   Header,
+  Hero,
   Layout,
   Partner,
   Selfhelp
@@ -13,6 +14,7 @@ const IndexPage = () => {
   return (
       <Layout>
         <Header />
+        <Hero />
         <About />
         <Biology />
         <Selfhelp />

@@ -7,3 +7,4 @@ export * from './Contact';
 export * from './Partner';
 export * from './Footer';
 export * from './Logo';
+export * from './Hero';
