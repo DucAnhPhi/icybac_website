@@ -1,15 +1,19 @@
 import React from 'react';
-import { Wrapper, Image, Brand } from './styles';
-import logo from "../../images/logo.png";
-import { Link } from 'gatsby'
+import { Wrapper } from './styles';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export const Logo = () => {
   return (
-    <Wrapper>
-        <Image src={logo} alt="logo"/>
-        <Brand as={Link} to="/">
-            ICYBAC
-        </Brand>
+    <Wrapper href="">
+        <StaticImage
+          src="../../images/logo.png"
+          alt="logo"
+          quality="100"
+          width={40}
+          height={40}
+          layout="fixed"
+        />
+            &nbsp;&nbsp;&nbsp;ICYBAC
     </Wrapper>
   )
 };
