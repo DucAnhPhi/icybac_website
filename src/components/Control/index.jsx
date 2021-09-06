@@ -1,6 +1,7 @@
 import React from 'react';
-import { Wrapper, Content, Bullet, Section } from './styles';
+import { Approach, Wrapper, Cell, Container, Content, Bullet, Section } from './styles';
 import { Text, Title, Subtitle} from '../index';
+import { StaticImage } from 'gatsby-plugin-image';
 
 export const Control = () => (
     <div id="bekämpfung">
@@ -40,5 +41,52 @@ export const Control = () => (
                 </Section>
             </Content>
         </Wrapper>
+        <Approach id="vorgehen">
+                <Container>
+                    <Cell className="padding">
+                        <Title>Vorgehen bei der Bekämpfung</Title>
+                        <Subtitle>1. Festlegung des Larvenbesatzes</Subtitle>
+                        <div className="separator"></div>
+                        <Text>Es werden in den einzelnen Probearealen jeweils 10 Schöpfproben mit einem Standardschöpfer (ein 0,3-Liter fassender, heller Plastikbecher) entnommen und die Anzahl der Larven sowie deren Larvenstadien und Gattungszugehörigkeit erfasst. Geschöpft wird an Stellen, an denen sich bei ruhigem Verhalten Stechmückenlarven beim Absuchen der Wasseroberfläche ausmachen lassen. Über die Besatzdichte der einzelnen Probestellen sowie den Entwicklungsstand der Larven wird Protokoll geführt. Treten bei Hochwasser regelmäßig 5 und mehr Larven pro Liter auf, so müssen Bekämpfungsmaßnahmen entsprechend dem entwickelten Bekämpfungskonzept vorgenommen werden.</Text>
+                    </Cell>
+                    <Cell>
+                        <StaticImage
+                            src="../../images/mosquito.jpg"
+                            alt="larvae control"
+                            quality={100}
+                        />
+                    </Cell>
+                </Container>
+                <Container>
+                    <Cell>
+                        <StaticImage
+                            src="../../images/mosquito.jpg"
+                            alt="larvae control"
+                            quality={100}
+                            />
+                    </Cell>
+                    <Cell className="padding">
+                        <Title>2.</Title>
+                        <Subtitle>Bereitstellung der Wirkstoff-Granulate</Subtitle>
+                        <div className="separator"></div>
+                        <Text>Sämtliche Arten von Formulierungen müssen auf die Wasseroberfläche der Stechmückenbrutstätten appliziert werden. Im Fall der Suspensionen geschieht dies in der Regel durch das Versprühen mit Hilfe einer Rückenspritze oder über spezielle Sprüheinrichtungen am Hubschrauber. Bei der Fuß-Applikation läuft der Anwender entweder durch oder entlang des Brutgewässers und versprüht die Suspension gleichmäßig auf der Wasseroberfläche. Der Wirkstoff gelangt so in die Fresszone der Larven, wo er von ihnen aufgenommen wird.</Text>
+                    </Cell>
+                </Container>
+                <Container>
+                    <Cell className="padding">
+                        <Title>3.</Title>
+                        <Subtitle>Erfolgskontrollen</Subtitle>
+                        <div className="separator"></div>
+                        <Text>Nach Abschluss der Bekämpfungsmaßnahmen in einem zeitlichen Abstand von 1-2 Tagen werden umfangreiche Erfolgskontrollen per Schöpfproben durchgeführt, um die Reduktion der Stechmückenlarven zu dokumentieren.Der Bekämpfungserfolg wird außerdem durch das Aufhängen von CO2-Lichtfallen, mit denen die ausgewachsenen fliegenden (und stechenden) Mücken erfasst werden, in regelmäßigen Abständen kontrolliert und dokumentiert.</Text>
+                    </Cell>
+                    <Cell>
+                        <StaticImage
+                            src="../../images/mosquito.jpg"
+                            alt="larvae control"
+                            quality={100}
+                        />
+                    </Cell>
+                </Container>
+        </Approach>
     </div>
 );
