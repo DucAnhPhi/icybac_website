@@ -2,14 +2,12 @@ import * as React from "react"
 import {
   About,
   Biology,
-  Contact,
   Control,
   Footer,
   Header,
   Hero,
   Layout,
-  Partner,
-  Selfhelp
+  Partner
 } from '../components';
 const IndexPage = () => {
   return (
@@ -19,9 +17,7 @@ const IndexPage = () => {
         <Control />
         <About />
         <Biology />
-        <Selfhelp />
         <Partner />
-        <Contact />
         <Footer />
       </Layout>
   )
