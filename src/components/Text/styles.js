@@ -21,6 +21,9 @@ export const Wrapper = styled.p`
     nomargin
       ? `
         margin: 0;
+        @media (max-width: 600px) {
+            margin: 0;
+        }
       `
       : `
         margin-bottom: 30px;

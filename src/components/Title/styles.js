@@ -20,6 +20,9 @@ export const Wrapper = styled.h1`
     nomargin
       ? `
         margin: 0;
+        @media (max-width: 600px) {
+            margin: 0;
+        }
       `
       : `
         margin-bottom: 30px;

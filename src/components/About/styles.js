@@ -14,4 +14,13 @@ export const Wrapper = styled.div`
         justify-content: center;
         text-align: center;
     }
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+        padding: 20px 0;
+
+        .stat {
+            padding: 10px 0;
+        }
+    }
 `

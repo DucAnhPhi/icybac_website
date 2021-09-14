@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, Content } from './styles';
+import { Wrapper } from './styles';
 import { Title, Text } from '../index';
 
 export const About = () => (
