@@ -7,7 +7,7 @@ export const Control = () => (
     <div id="bekämpfung">
         <Wrapper id="methode">
             <Content>
-                    <Title>Bekämpfungsmethode</Title>
+                    <Title center>Bekämpfungsmethode</Title>
                 <Section>
                     <Text>Die Grundlagen für eine ökologisch sinnvolle und wirksame Bekämpfung der Entwicklungsstadien der Stechmücken sind:</Text>
                     <Bullet>

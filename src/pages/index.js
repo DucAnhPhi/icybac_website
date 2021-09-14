@@ -1,7 +1,7 @@
 import * as React from "react"
 import {
   About,
-  Biology,
+  News,
   Control,
   Footer,
   Header,
@@ -16,7 +16,7 @@ const IndexPage = () => {
         <Hero />
         <Control />
         <About />
-        <Biology />
+        <News />
         <Partner />
         <Footer />
       </Layout>
