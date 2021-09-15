@@ -6,6 +6,7 @@ export const Global = createGlobalStyle`
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
     @media only screen and (max-width: 480px) {
       html {
