@@ -1,16 +1,23 @@
 import React from 'react';
 import NavbarLinks from '../NavbarLinks';
-import { Wrapper, Button, Container } from './styles';
+import { Wrapper, Container } from './styles';
 import { Logo } from '../../index';
+import { Link } from "gatsby";
 
-const Navbar = () => {
+const Navbar = ({report}) => {
     return (
-        <Wrapper>
+        <Wrapper report={report}>
             <Logo />
-            <Container>
-                <NavbarLinks desktop />
-                <Button>Stechmücke melden</Button>
-            </Container>
+            {
+                report
+                ? <Container report={report}>
+                    <Link to="/" className="close">&#10005; Fragebogen schließen</Link>
+                </Container>
+                : <Container>
+                    <NavbarLinks desktop />
+                    <Link to="/report" className="button">Stechmücke melden</Link>
+                </Container>
+            }
         </Wrapper>
     );
 };
