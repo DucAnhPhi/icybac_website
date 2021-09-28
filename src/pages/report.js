@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const settings = {
     arrows: false,
+    dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
@@ -29,7 +30,6 @@ const Container = styled.div`
     }
 
     @media (max-width: 600px) {
-        padding: 0 50px;
         font-size: 15px;
     }
 `;
