@@ -51,8 +51,9 @@ export const Control = () => (
                     </Cell>
                     <Cell>
                         <StaticImage
-                            src="../../images/mosquito.jpg"
+                            src="../../images/larvae.jpg"
                             alt="larvae control"
+                            className="cellImage"
                             quality={100}
                         />
                     </Cell>
@@ -60,8 +61,9 @@ export const Control = () => (
                 <Container>
                     <Cell>
                         <StaticImage
-                            src="../../images/mosquito.jpg"
+                            src="../../images/granulat.jpg"
                             alt="larvae control"
+                            className="cellImage"
                             quality={100}
                             />
                     </Cell>
@@ -81,7 +83,8 @@ export const Control = () => (
                     </Cell>
                     <Cell>
                         <StaticImage
-                            src="../../images/mosquito.jpg"
+                            src="../../images/analysis.jpg"
+                            className="cellImage"
                             alt="larvae control"
                             quality={100}
                         />

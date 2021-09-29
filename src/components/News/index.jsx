@@ -35,9 +35,10 @@ export const News = () => (
                     <div>
                         <div style={{paddingRight:"30px"}}>
                             <StaticImage
-                                src="../../images/mosquito.jpg"
+                                src="../../images/radio.jpg"
                                 alt="Tigermoskito"
                                 quality="100"
+                                className="thumbnail"
                             />
                             <Text>27.07.2021</Text>
                             <Subtitle>ICYBAC bei Radio1</Subtitle>
@@ -51,6 +52,7 @@ export const News = () => (
                                 src="../../images/mosquito.jpg"
                                 alt="Tigermoskito"
                                 quality="100"
+                                className="thumbnail"
                             />
                             <Text>27.07.2021</Text>
                             <Subtitle>Die große Schnakenplage</Subtitle>
@@ -61,9 +63,10 @@ export const News = () => (
                     <div>
                         <div style={{paddingLeft: "30px"}}>
                             <StaticImage
-                                src="../../images/mosquito.jpg"
+                                src="../../images/bti.jpg"
                                 alt="Tigermoskito"
                                 quality="100"
+                                className="thumbnail"
                             />
                             <Text>27.07.2021</Text>
                             <Subtitle>Das Wundermittel BTI</Subtitle>

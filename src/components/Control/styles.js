@@ -73,16 +73,28 @@ export const Cell = styled.div`
         padding: 0 150px;
     }
 
+    .cellImage {
+        height: 600px;
+    }
+
     @media (max-width: 1500px) {
         height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        .cellImage {
+            height: 500px;
+        }
     }
 
     @media (max-width: 1000px) {
         p,h1,h2 {
             padding: 0;
+        }
+
+        .cellImage {
+            height: 400px;
         }
     }
 `;

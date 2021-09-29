@@ -40,8 +40,15 @@ export const Link = styled.a`
 
 export const Content = styled.div`
     width: 1300px;
+
+    .thumbnail {
+        height: 300px;
+    }
     @media (max-width: 1400px) {
         width: 1000px;
+        .thumbnail {
+            height: 250px;
+        }
     }
 
     @media (max-width: 1100px) {
